@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18193" started-at="2022-03-23T12:20:26 IST" finished-at="2022-03-23T12:20:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18193" started-at="2022-03-23T12:20:26 IST" finished-at="2022-03-23T12:20:44 IST">
+      <class name="Ecommerce.Heroku_app">
+        <test-method status="PASS" signature="login()[pri:0, instance:Ecommerce.Heroku_app@1d8db5a]" name="login" duration-ms="7931" started-at="2022-03-23T12:20:26 IST" finished-at="2022-03-23T12:20:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="get_all_orders()[pri:1, instance:Ecommerce.Heroku_app@1d8db5a]" name="get_all_orders" duration-ms="3025" started-at="2022-03-23T12:20:34 IST" finished-at="2022-03-23T12:20:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_orders -->
+        <test-method status="PASS" signature="Create_Order()[pri:2, instance:Ecommerce.Heroku_app@1d8db5a]" name="Create_Order" duration-ms="1952" started-at="2022-03-23T12:20:37 IST" finished-at="2022-03-23T12:20:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Order -->
+        <test-method status="PASS" signature="get_order_by_id()[pri:3, instance:Ecommerce.Heroku_app@1d8db5a]" name="get_order_by_id" duration-ms="1967" started-at="2022-03-23T12:20:39 IST" finished-at="2022-03-23T12:20:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_order_by_id -->
+        <test-method status="PASS" signature="update_order_by_id()[pri:4, instance:Ecommerce.Heroku_app@1d8db5a]" name="update_order_by_id" duration-ms="1596" started-at="2022-03-23T12:20:41 IST" finished-at="2022-03-23T12:20:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_order_by_id -->
+        <test-method status="PASS" signature="delete_order_by_id()[pri:5, instance:Ecommerce.Heroku_app@1d8db5a]" name="delete_order_by_id" duration-ms="1632" started-at="2022-03-23T12:20:42 IST" finished-at="2022-03-23T12:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_order_by_id -->
+      </class> <!-- Ecommerce.Heroku_app -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
